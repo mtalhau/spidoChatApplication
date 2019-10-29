@@ -44,7 +44,7 @@ Required IDE:
 Android Studio
 
 Link to the app:
-https://appdistribution.firebase.dev/i/vWx3KKsC
+https://appdistribution.firebase.dev/i/MwMqtJ2z
 
 Google drive link to other documents and video:
 https://drive.google.com/open?id=1QWKUwuXhnc1lbw_WT4xtiIV7P-_4aeqt

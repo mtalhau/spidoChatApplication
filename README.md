@@ -2,8 +2,11 @@
 Chat Application made for APPCON 2019
 
 By Team "Men On a mission"
+
 M. Talha Usman (u2017328@giki.edu.pk)
+
 M. Hamza (u2017261@giki.edu.pk)
+
 Azib Zahid (u2017092@giki.edu.pk)
 
 Setting Up the backend:

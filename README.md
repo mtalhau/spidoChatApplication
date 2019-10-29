@@ -16,16 +16,26 @@ Backend is deployed on Parse server hosted by back4app.com. Create a java class 
 Setting Up the frontend:
 
 All java and xml files are provided in the repository. The app is connected to Google Firebase, Parse Server and OneSignal (for notifications). So the following dependencies need to be added in App level build.gradle:
+
     implementation 'com.google.firebase:firebase-analytics:17.2.0'
+    
     implementation 'com.google.firebase:firebase-messaging:20.0.0'
+    
     implementation 'com.google.firebase:firebase-core:17.2.0'
+    
     implementation 'com.onesignal:OneSignal:[3.11.2, 3.99.99]'
+    
     implementation 'com.mcxiaoke.volley:library:1.0.0'
+    
     implementation 'com.parse.bolts:bolts-tasks:1.3.0'
+    
     implementation 'com.parse:parse-android:1.13.0'
+    
 
 In project level build.gradle, add the following code in 
+
 >buildscript>repositories: maven { url "https://jitpack.io" }.
+
 >buildscript>dependencies: classpath 'com.google.gms:google-services:4.3.2'
 
 Hoping that will be enough to set up the app and run locally.

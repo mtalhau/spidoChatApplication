@@ -1,10 +1,17 @@
 # spidoChatApplication
 Chat Application made for APPCON 2019
 
+By Team "Men On a mission"
+M. Talha Usman (u2017328@giki.edu.pk)
+M. Hamza (u2017261@giki.edu.pk)
+Azib Zahid (u2017092@giki.edu.pk)
+
 Setting Up the backend:
+
 Backend is deployed on Parse server hosted by back4app.com. Create a java class StaterApplication.java and copy the code provided. Create a new app on back4app.com and replace the app id & client key in the code with your Back4app's app id and client key available in the "API Reference" section on the website. Use "https://parseapi.back4app.com/" as the server. Also in android manifest, declare android:name=".StarterApplication" under <aplication tag.
 
 Setting Up the frontend:
+
 All java and xml files are provided in the repository. The app is connected to Google Firebase, Parse Server and OneSignal (for notifications). So the following dependencies need to be added in App level build.gradle:
     implementation 'com.google.firebase:firebase-analytics:17.2.0'
     implementation 'com.google.firebase:firebase-messaging:20.0.0'
